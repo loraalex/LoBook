@@ -1,2 +1,3 @@
-# LoRa-FIIT-Notebooks
-LoRa@FIIT algorithms comparison using jupyter notebooks
+# LoRa Notebooks
+
+Comparison of performance metrics of different communication parameters selesction algorithms using Jupyter notebook.
