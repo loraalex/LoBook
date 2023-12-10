@@ -19,50 +19,15 @@ For detailed installation instructions, refer to the official documentation:
 
 ## Notebook Content
 
-```python
-%matplotlib inline
-import pandas as pd
-import numpy as np
-import matplotlib as mpl
-import matplotlib_inline as mpl_inl
-import matplotlib.pyplot as plt
-import statistics
-import math
-import base64
-from IPython.display import set_matplotlib_formats
-from IPython.display import display
+The notebook covers the following key aspects:
 
-mpl_inl.backend_inline.set_matplotlib_formats('svg')
-cut_ratio = 0.05
-subfolders = ['folder1', 'folder2']
-algorithms = ['ts_aloha', 'ts_cad']
-colors = ['pink', 'tab:purple']
-output_format = 'png'
-uplink_message_files = []
-dataset_labels = []
-subfolder_str = '-'.join(subfolders)
+1. **Spreading Factor Distribution:** Analyzes and visualizes the distribution of spreading factors for different algorithms and datasets.
 
-# Data Loading and Preprocessing for Spreading Factor Distribution
-# ...
+2. **Carrier Frequency Distribution:** Examines and visualizes the distribution of carrier frequencies for different algorithms and datasets.
 
-# Spreading Factor Distribution Plot
-# ...
+3. **Packet Delivery Ratio (PDR) Analysis:** Calculates and analyzes PDR for each algorithm and dataset. Mean PDR values are also displayed.
 
-# Data Loading and Preprocessing for Carrier Frequency Distribution
-# ...
-
-# Carrier Frequency Distribution Plot
-# ...
-
-# Packet Delivery Ratio (PDR) Calculation and Analysis
-# ...
-
-# Display the PDR values and mean PDR for each algorithm
-# ...
-
-# Generate LaTeX code for the PDR table
-# ...
-```
+4. **LaTeX Export:** Generates LaTeX code for PDR tables.
 
 ## Instructions
 
