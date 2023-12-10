@@ -22,11 +22,8 @@ For detailed installation instructions, refer to the official documentation:
 The notebook covers the following key aspects:
 
 1. **Spreading Factor Distribution:** Analyzes and visualizes the distribution of spreading factors for different algorithms and datasets.
-
 2. **Carrier Frequency Distribution:** Examines and visualizes the distribution of carrier frequencies for different algorithms and datasets.
-
 3. **Packet Delivery Ratio (PDR) Analysis:** Calculates and analyzes PDR for each algorithm and dataset. Mean PDR values are also displayed.
-
 4. **LaTeX Export:** Generates LaTeX code for PDR tables.
 
 ## Instructions
